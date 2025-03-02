@@ -1,9 +1,12 @@
 import React from "react";
+import profilepic from "../images/profilepic.jpeg"
 
 const About = () => {
 
   return (
     <>
+    <section>
+      <img src={profilepic} alt="profile-pic"/>
       <h1>Luke Alexander Rudderham-Cozier</h1>
       <h2>Front End Engineer</h2>
       <h3>About Me</h3>
@@ -11,6 +14,7 @@ const About = () => {
         user-friendly experiences. Committed to delivering high-quality code, I take pride in refining 
         every element to ensure the best results. Always eager to learn and grow, I stay up to date with 
         the latest technologies to bring fresh ideas and innovation to my work.</p>
+    </section>
     </>
   )
 }
