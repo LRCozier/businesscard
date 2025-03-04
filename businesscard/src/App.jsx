@@ -8,6 +8,7 @@ const App = () => {
     <>
     <main className='business-card-main'>
       <About/>
+      <Mail label='Email Me' mailto='mailto:lrcozier@gmail.com'/>
       <Footer/>
     </main>
     </>
