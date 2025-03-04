@@ -37,29 +37,33 @@ section {
   background: hsl(var(--clr-outer-dark) / 1);
   max-width: 20rem;
   text-align: center;
+  align-items: center;
 }
 
 .business-card-main{
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  place-items: center;
   background: hsl(var(--clr-outer-dark) /1);
-  width: 35rem;
+  width: 25rem;
   margin-inline: auto;
-  padding: 4em;
+  padding: 1em;
   border-radius: 0px 0px 10px 10px;
 }
 
 img {
   max-width: 100%;
+  height: auto;
   display: block;
-  border-radius: 50%;
 }
 
-footer{
+footer {
   background: hsl(var(--clr-footer-dark) / 1);
-  border-radius: 0px 0px 10px 10px;
   padding: 1.1875em 0;
   display: flex;
+
+}
+.footer-first-line, .footer-second-line{
+  border-radius: 0px 0px 10px 10px;
   text-align: center;
   align-items: center;
   justify-content: center;
