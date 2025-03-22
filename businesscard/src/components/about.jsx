@@ -8,12 +8,13 @@ const About = () => {
     <section>
       <img src={profilepic} alt="profile-pic"/>
       <h1>Luke Alexander Rudderham-Cozier</h1>
-      <h2>Front End Engineer</h2>
+      <h2>Front End Engineer & Personal Trainer</h2>
       <h3>About Me</h3>
-      <p>A passionate Front-End Developer with a keen eye for detail and a drive to create seamless, 
-        user-friendly experiences. Committed to delivering high-quality code, I take pride in refining 
-        every element to ensure the best results. Always eager to learn and grow, I stay up to date with 
-        the latest technologies to bring fresh ideas and innovation to my work.</p>
+      <p>A dedicated Front-End Developer and Personal Trainer, driven by a passion for creating positive, 
+        seamless experiences—whether in the digital space or personal well-being. With a keen eye for detail 
+        and a commitment to excellence, I craft user-friendly interfaces and tailor fitness solutions that 
+        empower and inspire. Always eager to grow, I stay up to date with the latest technologies and training 
+        methods to bring fresh, innovative approaches to everything I do..</p>
     </section>
     </>
   )
