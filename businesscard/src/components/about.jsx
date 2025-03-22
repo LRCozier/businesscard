@@ -6,15 +6,14 @@ const About = () => {
   return (
     <>
     <section>
-      <img src={profilepic} alt="profile-pic"/>
       <h1>Luke Alexander Rudderham-Cozier</h1>
+      <img src={profilepic} alt="profile-pic"/>
       <h2>Front End Engineer & Personal Trainer</h2>
-      <h3>About Me</h3>
       <p>A dedicated Front-End Developer and Personal Trainer, driven by a passion for creating positive, 
         seamless experiences—whether in the digital space or personal well-being. With a keen eye for detail 
         and a commitment to excellence, I craft user-friendly interfaces and tailor fitness solutions that 
         empower and inspire. Always eager to grow, I stay up to date with the latest technologies and training 
-        methods to bring fresh, innovative approaches to everything I do..</p>
+        methods to bring fresh, innovative approaches to everything I do.</p>
     </section>
     </>
   )
